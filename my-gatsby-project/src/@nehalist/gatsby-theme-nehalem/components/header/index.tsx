@@ -32,12 +32,12 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
   return (
     <StyledHeader>
       <StyledNavigation title={title} menu={menu} showSearch={search}/>
-      <TitleWrapper>
+      {/* <TitleWrapper>
         <Title>{title}</Title>
         <Description>
           {description}
         </Description>
-      </TitleWrapper>
+      </TitleWrapper> */}
     </StyledHeader>
   );
 };

@@ -20,17 +20,13 @@ interface PostsPageProps {
 }
 
 const HomeContainer = styled(Container)`
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) .25fr;
-  grid-column-gap: 30px;
 
   @media (max-width: ${Theme.breakpoints.xl}) {
-    grid-template-columns: 1fr;
+
   }
 `;
 
 const Sidebar = styled.aside`
-  width: 315px;
   padding-top: 30px;
 
   @media (max-width: ${Theme.breakpoints.xl}) {
@@ -65,6 +61,9 @@ const PostsPage: FunctionComponent<PostsPageProps> = ({ pathContext, location })
     <Layout>
       <SEO location={location} type={`WebSite`} />
       <HomeContainer>
+        <Sidebar>
+          <SidebarContent />
+        </Sidebar>
         <PostsContainer>
           {posts.map((post, index) => (
             <Card
@@ -88,9 +87,6 @@ const PostsPage: FunctionComponent<PostsPageProps> = ({ pathContext, location })
             <ArchiveLink to={`/archive`}>More posts</ArchiveLink>
           </ArchiveLinkWrapper>
         </PostsContainer>
-        <Sidebar>
-          <SidebarContent />
-        </Sidebar>
       </HomeContainer>
       <TagList />
     </Layout>

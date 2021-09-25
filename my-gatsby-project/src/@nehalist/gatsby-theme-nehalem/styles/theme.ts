@@ -14,8 +14,7 @@ const Theme: DefaultTheme = {
     xl: `1300px`,
   },
   fonts: {
-    base: `-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, ` +
-      `Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`,
+    base: `Gowun Dodum, sans-serif`
   },
   components: {
     container: {

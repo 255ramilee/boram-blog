@@ -23,9 +23,7 @@ module.exports = {
     search: true,
     author: {
       name: `BORAM LEE`,
-      description: `Hello!, I'm <strong>BORAM LEE</strong>, a Gatsby theme by 
-        <a href="https://nehalist.io" rel="noopener" target="_blank">nehalist.io</a>. If you like what you see feel free to give a 
-        <a href="https://github.com/nehalist/gatsby-theme-nehalem" rel="noopener" target="_blank">star on GitHub!</a>`,
+      description: `<strong>Lit B</strong> | 웹퍼블리셔`,
       social: {
         facebook: ``,
         twitter: `https://twitter.com/nehalist`,
@@ -53,6 +51,15 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/content/assets/images`,
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Gowun+Dodum\:400`
+          ],
+        display: "swap",
+      },
+    },
   ]
 };
