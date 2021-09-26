@@ -56,13 +56,13 @@ export const NavMenuItem = styled.li`
 `;
 
 export const NavLink = styled(Link)`
-  color: #000;
-  opacity: .8;
+  color: #333;
+  font-weight: bold;
   padding: 16px;
   transition: opacity .5s;
 
   &:hover {
-    opacity: 1;
+    color:#234e45;
   }
 `;
 

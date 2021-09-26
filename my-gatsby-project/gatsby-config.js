@@ -10,7 +10,19 @@ module.exports = {
         path: '/'
       },
       {
-        name: 'Example',
+        name: 'Programming',
+        path: '/page'
+      },
+      {
+        name: 'Book',
+        path: '/page'
+      },
+      {
+        name: 'About me',
+        path: '/page'
+      },
+      {
+        name: 'Contact me',
         path: '/page'
       },
     ],
@@ -23,15 +35,16 @@ module.exports = {
     search: true,
     author: {
       name: `BORAM LEE`,
-      description: `<strong>Lit B</strong> | 웹퍼블리셔`,
+      description: `<strong>Lit B</strong> | 소통하는 UX/UI를 만드는 웹퍼블리셔`,
       social: {
         facebook: ``,
-        twitter: `https://twitter.com/nehalist`,
-        linkedin: `https://www.linkedin.com/in/kevin-hirczy-7a9377106/`,
+        twitter: ``,
+        linkedin: ``,
         instagram: ``,
         youtube: ``,
-        github: `https://github.com/nehalist`,
-        twitch: ``
+        github: `https://github.com/255ramilee`,
+        twitch: ``,
+        notion: `https://www.notion.so/Solution-Blog-29054d6332f34b0ab70fbf6fe04faf1d`
       }
     }
   },
