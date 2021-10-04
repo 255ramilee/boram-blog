@@ -2,3 +2,19 @@
   color: "#007acc"
   icon: ./assets/images/logo.png
   featured: true
+- name: HTML
+  color: "#007acc"
+  icon: ./assets/images/ico_html.png
+  featured: true
+- name: CSS
+  color: "#007acc"
+  icon: ./assets/images/ico_css.png
+  featured: true
+- name: JS
+  color: "#007acc"
+  icon: ./assets/images/ico_js.png
+  featured: true
+- name: TIPs
+  color: "#007acc"
+  icon: ./assets/images/ico_tips.png
+  featured: true

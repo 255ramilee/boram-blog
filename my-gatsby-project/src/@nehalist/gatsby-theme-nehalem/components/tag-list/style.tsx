@@ -4,14 +4,16 @@ import {Link} from "gatsby";
 
 export const TagContainer = styled.section`
   display:flex;
-  padding: 40px 77px;
-  border-top: 1px solid #234e45;
-  border-bottom: 1px solid #234e45;
+  padding: 20px 77px;
+  border-top: 2px solid #234e45;
+  border-bottom:0;
   text-align: center;
 `;
 
 export const TagListTitle = styled.h2`
-  margin: 0 0 40px;
+  margin: 0;
+  color:#234e45;
+  font-size:17px;
 `;
 
 export const StyledTagList = styled.ul`
@@ -28,7 +30,7 @@ export const StyledTagList = styled.ul`
 `;
 
 export const StyledTag = styled.li`
-  margin: 0 35px;
+  margin: 0 25px;
   transition: .5s all;
 
   &:hover {

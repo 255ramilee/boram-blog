@@ -22,7 +22,7 @@ const TagList: FunctionComponent = () => {
           name
           icon {
             childImageSharp {
-              fixed(height: 55) {
+              fixed(height: 45) {
                 ...GatsbyImageSharpFixed
               }
             }
@@ -49,7 +49,7 @@ const TagList: FunctionComponent = () => {
                   ? <Img fixed={tag.icon.childImageSharp.fixed}/>
                   : <TagIcon src={icon.publicURL} alt={tag.name}/>
                 }
-                <TagName>{tag.name}</TagName>
+                {/* <TagName>{tag.name}</TagName> */}
               </Link>
             </StyledTag>
           );

@@ -1,7 +1,7 @@
 ---
-title: Sample page
-path: "/page"
-excerpt: A sample page.
+title: About BORAM.
+path: "/about"
+excerpt: page of introducing about BORAM.
 ---
 
 ## Dicta tela magis

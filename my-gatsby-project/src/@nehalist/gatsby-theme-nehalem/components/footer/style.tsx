@@ -8,7 +8,9 @@ export const StyledFooter = styled.footer`
   z-index: 700;
   position: relative;
   font-size: .9em;
-  margin-top: 50px;
+  margin-top: 0;
+  color: #f2eee3;
+  background-color:#234e45;
 `;
 
 export const FooterContainer = styled(Container)`
@@ -57,7 +59,7 @@ export const StyledNav = styled.nav`
 `;
 
 const LinkStyle = css`
-  color: #000;
+  color: #f2eee3;
   text-decoration: none;
 `;
 

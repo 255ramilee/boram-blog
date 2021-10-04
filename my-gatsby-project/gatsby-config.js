@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Solutionⓑ`,
     siteUrl: `https://naver.com`,
-    description: `BORAM is worthwhile blog`,
+    description: `Getting solutions make me a better person than yesterday in this hard world. and I'd love to share to everyone who need it.`,
     topics: [],
     menu: [
       {
@@ -10,20 +10,12 @@ module.exports = {
         path: '/'
       },
       {
-        name: 'Programming',
-        path: '/page'
-      },
-      {
-        name: 'Book',
-        path: '/page'
-      },
-      {
         name: 'About me',
-        path: '/page'
+        path: '/about'
       },
       {
         name: 'Contact me',
-        path: '/page'
+        path: '/contact'
       },
     ],
     footerMenu: [

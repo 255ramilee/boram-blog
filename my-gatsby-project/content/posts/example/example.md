@@ -1,5 +1,5 @@
 ---
-title: "Lorem ipsum"
+title: ""
 path: "/demo"
 tags: ["Demo"]
 featuredImage: "./cover.jpg"
